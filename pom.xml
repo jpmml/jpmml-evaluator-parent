@@ -38,7 +38,7 @@
 	<properties>
 		<guava.version>[19.0, 33.7.2-jre]</guava.version>
 		<jcommander.version>2.0</jcommander.version>
-		<slf4j.version>2.0.17</slf4j.version>
+		<slf4j.version>2.0.20</slf4j.version>
 		<github-release.classifier>executable</github-release.classifier>
 		<project.build.outputTimestamp>2026-09-30T19:15:00Z</project.build.outputTimestamp>
 	</properties>
@@ -95,13 +95,10 @@
 
 			<dependency>
 				<groupId>org.slf4j</groupId>
-				<artifactId>slf4j-api</artifactId>
+				<artifactId>slf4j-bom</artifactId>
 				<version>${slf4j.version}</version>
-			</dependency>
-			<dependency>
-				<groupId>org.slf4j</groupId>
-				<artifactId>slf4j-jdk14</artifactId>
-				<version>${slf4j.version}</version>
+				<type>pom</type>
+				<scope>import</scope>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
