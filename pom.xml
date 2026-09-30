@@ -10,7 +10,7 @@
 
 	<groupId>org.jpmml</groupId>
 	<artifactId>jpmml-evaluator-parent</artifactId>
-	<version>1.0.0</version>
+	<version>1.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<name>JPMML-Evaluator-Parent</name>
@@ -28,7 +28,7 @@
 		<connection>scm:git:git@github.com:jpmml/jpmml-evaluator-parent.git</connection>
 		<developerConnection>scm:git:git@github.com:jpmml/jpmml-evaluator-parent.git</developerConnection>
 		<url>https://github.com/jpmml/jpmml-evaluator-parent</url>
-		<tag>1.0.0</tag>
+		<tag>HEAD</tag>
 	</scm>
 	<issueManagement>
 		<system>GitHub</system>
@@ -40,7 +40,7 @@
 		<jcommander.version>2.0</jcommander.version>
 		<slf4j.version>2.0.20</slf4j.version>
 		<github-release.classifier>executable</github-release.classifier>
-		<project.build.outputTimestamp>2026-09-30T20:15:05Z</project.build.outputTimestamp>
+		<project.build.outputTimestamp>2026-09-30T20:15:14Z</project.build.outputTimestamp>
 	</properties>
 
 	<dependencyManagement>
